@@ -1,0 +1,23 @@
+
+.header{
+  padding: 1em;
+  background-color: #6abdfc;
+  color:white;
+}
+
+header img {
+  width: 80px;
+  cursor: pointer;
+}
+h1{
+  display: inline;
+}
+h2 {
+  display: inline;
+  font-size: 18px;
+}
+.logo{
+  width: 80px;
+  height: auto;
+}
+

@@ -1,0 +1,9 @@
+
+.footer{
+  padding: 1em;
+  background-color: gray;
+  margin-top: 2em;
+}
+address, .ip {
+  text-align: center;
+}

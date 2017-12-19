@@ -1,0 +1,13 @@
+
+<section class="c-news">
+    <header class="header">
+        <h1>Noticias</h1>
+    </header>
+    <main class="body">
+        <article class="news" *ngFor="let information of news">
+            <p class="subject">{{information.subject}}</p>
+            <p class="content">{{information.content}}</p>
+            <p class="date">{{information.date}}</p>
+        </article>
+    </main>
+</section>

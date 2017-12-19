@@ -1,0 +1,22 @@
+<footer class="c-footer row">
+    <section class="col-xs-12 col-sm-4 text-center">
+        <section class="social-network">
+            <ng-template ngFor let-icon [ngForOf]="socialNetworks">
+                <a *ngIf="icon.enabled" href='{{icon.url}}'>
+                    <i class='fa-2x {{icon.fontawesome}}'></i>
+                </a>
+            </ng-template>
+        </section>
+    </section>
+    <section class="ip col-xs-12 col-sm-4">
+        <div>{{ip}}</div>
+        <div>Versión: {{polinetVersion}}</div>
+    </section>
+
+    <address class="col-xs-12 col-sm-4">
+        <span>IES Politécnico Jesús Marín</span>
+        <span> Calle Politécnico 1,29007, Málaga</span>
+        <span> Tlf.: 951297914 - 904914 </span>
+        <span>Fax: 951297957 - 904957</span>
+    </address>
+</footer>
