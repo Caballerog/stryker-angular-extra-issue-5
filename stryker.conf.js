@@ -33,10 +33,13 @@ module.exports = function (config) {
         mutator: 'typescript',
         testFramework: 'jasmine',
         transpilers: ['webpack'],
+        webpack: {
+            project: 'angular',
+        },
         reporter: ['clear-text', 'progress', 'html'],
         coverageAnalysis: 'off',
         karmaConfigFile: './stryker/karma.conf.js',
-        project: 'angular',
+
         logLevel: 'info',
         tsconfigFile: './stryker/tsconfig.json',
         baseDir: path.resolve(__dirname)
